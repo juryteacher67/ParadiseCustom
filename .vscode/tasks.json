@@ -13,7 +13,7 @@
 		{
 			"type": "shell",
 			"command": ".\\tgui\\bin\\tgui.bat",
-			"linux":{
+			"linux": {
 				"command": "tgui/bin/tgui",
 			},
 			"problemMatcher": [
@@ -26,9 +26,11 @@
 		{
 			"type": "shell",
 			"command": ".\\tgui\\bin\\tgui-dev-server.bat",
-			"linux":{
+			"linux": {
 				"command": "tgui/bin/tgui",
-				"args": ["--dev"]
+				"args": [
+					"--dev"
+				]
 			},
 			"problemMatcher": [
 				"$tsc",

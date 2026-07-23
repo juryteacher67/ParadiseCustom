@@ -752,6 +752,7 @@ active_lava_ruins = [
   "_maps/map_files/RandomRuins/LavaRuins/lavaland_surface_hermit.dmm",
   "_maps/map_files/RandomRuins/LavaRuins/lavaland_surface_seed_vault.dmm",
   "_maps/map_files/RandomRuins/LavaRuins/lavaland_surface_eden.dmm",
+  "_maps/map_files/RandomRuins/LavaRuins/lavaland_surface_cryocrash.dmm",
   ## SIN
   "_maps/map_files/RandomRuins/LavaRuins/lavaland_surface_envy.dmm",
   "_maps/map_files/RandomRuins/LavaRuins/lavaland_surface_gluttony.dmm",
