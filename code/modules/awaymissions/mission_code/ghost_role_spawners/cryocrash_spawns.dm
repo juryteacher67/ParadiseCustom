@@ -1,12 +1,12 @@
 /obj/effect/mob_spawn/human/alive/cryocrash
-	name = "old cryogenics pod"
+	name = "old cryoship pod"
 	desc = "A humming cryo pod. You can barely recognise a security uniform underneath the built up ice. The machine is attempting to wake up its occupant."
 	description = "Work as a team with your fellow survivors aboard a ruined, ancient space station."
-	assignedrole = "Ancient Crew"
+	assignedrole = "cryoship crew"
 	allow_gender_pick = TRUE
 
 /obj/effect/mob_spawn/human/alive/cryocrash/Initialize(mapload)
-	flavour_text = "You are \a [role_name] working for Nanotrasen, stationed onboard a state of the art research station. You vaguely recall rushing into a \
+	flavour_text = "You are \a [role_name] working for Nanotrasen, stationed onboard a state of the art cryoship. You vaguely recall rushing into a \
 	cryogenics pod due to an oncoming radiation storm. The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
 	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
 	return ..()
@@ -40,7 +40,7 @@
 	gloves = /obj/item/clothing/gloves/color/fyellow/old
 	l_pocket = /obj/item/tank/internals/emergency_oxygen
 
-/obj/effect/mob_spawn/human/alive/cryocrash/explorer
+/obj/effect/mob_spawn/human/alive/cryocrash/exp
 	role_name = "explorer"
 	uniform = /obj/item/clothing/under/retro/engineering
 	shoes = /obj/item/clothing/shoes/workboots

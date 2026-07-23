@@ -65,6 +65,16 @@
 	always_place = TRUE
 	megafauna_safe_range = TRUE
 
+/datum/map_template/ruin/lavaland/cryocrash
+	name = "cryocrash"
+	id = "cryocrash"
+	description = "A crashed cryogenic Ship, containing the remains of some of its \
+	former occupants along with dormant cryopods waiting to be awaken."
+	suffix = "lavaland_surface_cryocrash.dmm"
+	allow_duplicates = FALSE
+	always_place = TRUE
+	megafauna_safe_range = TRUE
+
 /datum/map_template/ruin/lavaland/althland_facility
 	name = "Althland Facility"
 	id = "althland-facility"

@@ -1,8 +1,9 @@
 "a" = (/turf/template_noop,/area/template_noop)
 "b" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
-"c" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/spawner/random/fungus,/turf/simulated/wall,/area/ruin/cryocrash)
+"c" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/random/fungus/maybe,/turf/simulated/wall,/area/ruin/cryocrash)
 "e" = (/obj/effect/mob_spawn/human/alive/cryocrash/eng{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
-"h" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/random/fungus/maybe,/turf/simulated/wall,/area/ruin/cryocrash)
+"f" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/alarm/engine/directional/south,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
+"g" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/spawner/random/fungus,/turf/simulated/wall,/area/ruin/cryocrash)
 "i" = (/obj/machinery/light,/obj/effect/decal/cleanable/dirt,/obj/structure/shelf,/obj/item/crowbar/small,/obj/item/crowbar/small,/obj/item/crowbar/small,/obj/item/flashlight/flare/glowstick/emergency,/obj/item/flashlight/flare/glowstick/emergency,/obj/item/flashlight/flare/glowstick/emergency,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "j" = (/obj/effect/mapping_helpers/turfs/rust,/turf/simulated/wall,/area/ruin/cryocrash)
 "l" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/crate/radiation,/obj/item/stack/sheet/mineral/plasma/ten,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
@@ -19,20 +20,19 @@
 "w" = (/obj/machinery/light{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "x" = (/obj/machinery/atmospherics/portable/canister/air,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "y" = (/obj/structure/closet/crate/secure/cryocrash/surgery,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
+"z" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/spawner/random/fungus/maybe,/turf/simulated/wall,/area/ruin/cryocrash)
 "B" = (/obj/machinery/computer/nonfunctional,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "C" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/power/port_gen/pacman,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "D" = (/obj/machinery/door/airlock/engineering{dir = 4; icon_state = "open"},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "E" = (/obj/machinery/light,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "G" = (/obj/effect/decal/cleanable/dirt,/obj/structure/sink/kitchen/old/directional/east,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "H" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/decal/cleanable/dirt,/turf/simulated/wall,/area/ruin/cryocrash)
-"I" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/alarm/engine/directional/south,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "J" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/mapping_helpers/turfs/rust,/turf/simulated/wall,/area/ruin/cryocrash)
 "K" = (/obj/effect/decal/cleanable/dirt,/obj/effect/mob_spawn/human/alive/cryocrash/exp{dir = 4},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "L" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "M" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/power/apc/off_station/empty_charge/directional/south,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "N" = (/obj/structure/closet/crate/secure/cryocrash/research,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "O" = (/obj/machinery/door/airlock/external,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
-"P" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/spawner/random/fungus/maybe,/turf/simulated/wall,/area/ruin/cryocrash)
 "R" = (/obj/machinery/light{dir = 1; in_use = 1},/obj/effect/decal/cleanable/dirt,/obj/structure/closet/crate/secure/cryocrash/explorer,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "S" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/economy/vending/hydronutrients,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "T" = (/obj/effect/baseturf_helper,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
@@ -48,18 +48,18 @@ aaaZZZZZZZZZaaa
 aaZpppppppppZaa
 aaZZHuuuuuHZZaa
 aZZZHqBBBqHZZZa
-ZZZjHqqqqqhjZZZ
-ZZjcXqqqqqwJJZZ
+ZZZjHqqqqqcjZZZ
+ZZjgXqqqqqwJJZZ
 ZZjeqqqqqqqtjZZ
 ZZjmqqqqqqqtjZZ
 ZZjKqqqqqqqtjZZ
 ZZjmqqqqqqqtjZZ
-ZZjsqqqqqqqtPZZ
+ZZjsqqqqqqqtzZZ
 ZZjqqqqTqqqGjZZ
-ZZJPHqqqqqqrjZZ
+ZZJzHqqqqqqrjZZ
 ZZWnOqqqqqqqjZZ
-ZZWbOEMvIiyYjZZ
-ZZJjPjjDjjPjJZZ
+ZZWbOEMvfiyYjZZ
+ZZJjzjjDjjzjJZZ
 ZZjVSoCLlRNxjZZ
 ZZjqqqqqqqqxjZZ
 ZZJjjjjjjjjjJZZ
