@@ -104,6 +104,26 @@
 	new /obj/item/tank/internals/oxygen(src)
 	new /obj/item/mining_scanner(src)//Manual Scanner to make it more difficult to find ore
 
+/obj/structure/closet/crate/hydroponics/cryocrash
+	name = "Hydroponics crate"
+	desc = "A crate containing hydroponic equipment and seeds."
+	icon_state = "hydrocrate"
+	icon_opened = "hydrocrate_open"
+	icon_closed = "hydrocrate"
+
+/obj/structure/closet/crate/hydroponics/cryocrash/populate_contents()
+	new /obj/item/gun/energy/floragun(src)
+	new /obj/item/cultivator(src)
+	new /obj/item/shovel/spade(src)
+	new /obj/item/reagent_containers/glass/bottle/nutrient/ez
+	new /obj/item/reagent_containers/glass/bottle/nutrient/l4z
+	new /obj/item/reagent_containers/glass/bottle/nutrient/mut
+	new /obj/item/reagent_containers/glass/bottle/nutrient/rh
+	new /obj/item/seeds/ambrosia(src)
+	new /obj/item/seeds/potato(src)
+	new /obj/item/seeds/carrot(src)
+	new /obj/item/seeds/fungus(src)
+
 /obj/machinery/mineral/ore_redemption/cryocrash
 	req_access = list(ACCESS_CRYOCRASH)
 
