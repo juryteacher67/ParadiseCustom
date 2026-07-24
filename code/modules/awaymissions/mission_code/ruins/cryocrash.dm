@@ -115,10 +115,10 @@
 	new /obj/item/gun/energy/floragun(src)
 	new /obj/item/cultivator(src)
 	new /obj/item/shovel/spade(src)
-	new /obj/item/reagent_containers/glass/bottle/nutrient/ez
-	new /obj/item/reagent_containers/glass/bottle/nutrient/l4z
-	new /obj/item/reagent_containers/glass/bottle/nutrient/mut
-	new /obj/item/reagent_containers/glass/bottle/nutrient/rh
+	new /obj/item/reagent_containers/glass/bottle/nutrient/ez(src)
+	new /obj/item/reagent_containers/glass/bottle/nutrient/l4z(src)
+	new /obj/item/reagent_containers/glass/bottle/nutrient/mut(src)
+	new /obj/item/reagent_containers/glass/bottle/nutrient/rh(src)
 	new /obj/item/seeds/ambrosia(src)
 	new /obj/item/seeds/potato(src)
 	new /obj/item/seeds/carrot(src)
