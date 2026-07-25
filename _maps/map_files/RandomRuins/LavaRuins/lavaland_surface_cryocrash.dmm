@@ -1,6 +1,7 @@
 "a" = (/turf/template_noop,/area/template_noop)
 "b" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "c" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/random/fungus/maybe,/turf/simulated/wall,/area/ruin/cryocrash)
+"d" = (/obj/effect/decal/cleanable/dirt,/obj/structure/table,/obj/machinery/door_control{id = "cryocrash"; name = "Charlie Station Lockdown Button"; req_access = list(513)},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "e" = (/obj/effect/mob_spawn/human/alive/cryocrash/eng{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "f" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/alarm/directional/south,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "g" = (/obj/effect/mapping_helpers/turfs/rust,/obj/effect/spawner/random/fungus,/turf/simulated/wall,/area/ruin/cryocrash)
@@ -15,7 +16,7 @@
 "r" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/mineral/ore_redemption/cryocrash,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "s" = (/obj/effect/decal/cleanable/dirt,/obj/effect/mob_spawn/human/alive/cryocrash/med{dir = 4},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "t" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/hydroponics/constructable{dir = 8},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
-"u" = (/obj/effect/spawner/window/plasma/grilled,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
+"u" = (/obj/effect/spawner/window/plasma/grilled,/obj/machinery/door/poddoor{id_tag = "cryocrash"},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "v" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "w" = (/obj/machinery/light{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
 "x" = (/obj/machinery/atmospherics/portable/canister/air,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plasteel,/area/ruin/cryocrash)
@@ -47,7 +48,7 @@ aaaaaaaaaaaaaaa
 aaaZZZZZZZZZaaa
 aaZpppppppppZaa
 aaZZHuuuuuHZZaa
-aZZZHqBBBqHZZZa
+aZZZHdBBBqHZZZa
 ZZZjHqqqqqcjZZZ
 ZZjgXqqqqqwJJZZ
 ZZjeqqqqqqqtjZZ

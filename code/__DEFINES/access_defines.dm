@@ -93,4 +93,4 @@
 #define ACCESS_FREE_GOLEMS				300	//! Ghost role: free golems.
 #define ACCESS_THETA_STATION			301	//! Ghost role: Theta station.
 #define ACCESS_DEEPSTORAGE				512	//! Space ruin: Deep Storage
-#define ACCESS_CRYOCRASH				513	//! Space ruin: Cryocrash
+#define ACCESS_CRYOCRASH				513	//! Ghost role: Cryocrash
