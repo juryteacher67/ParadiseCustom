@@ -29,7 +29,7 @@
 /obj/item/card/id/away/cryocrash/exp
 	name = "Explorer ID"
 	desc = "A clip on ID Badge, has one of those fancy new magnetic strips built in."
-	icon_state = "retro"
+	icon_state = "retro_engineering"
 
 /obj/item/card/id/away/cryocrash/apc
 	name = "APC Access ID"
